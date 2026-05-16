@@ -1,4 +1,4 @@
-// Problem Link:
+// Problem Link:https://www.codechef.com/problems/WECREC
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -22,27 +22,36 @@ int main()
             cin >> v[i];
             mp[v[i]]++;
         }
-        vector<int> cnt;
-        for (auto [a, b] : mp)
-            // cout << a << " " << b << endl;
-            cnt.push_back(b);
-        // sort(cnt.rbegin(), cnt.rend());
         int ans = 0;
+        // for (auto it = mp.rbegin(); it != mp.rend(); it++)
+        // // cout << a << " ";
+        // {
+        //     if (k != 0)
+        //     {
+        //         ans += it->second;
+        //         k--;
+        //     }
+        // }
 
-        for (auto it = mp.rbegin(); it != mp.rend(); it++)
-        // cout << a << " ";
+        // if (ans > x)
+        //     cout
+        //         << x << endl;
+        // else
+        //     cout << ans << endl;
+
+        // group k vector e rekhe
+        vector<pair<int, int>> an;
+        for (auto [a, b] : mp)
+            an.push_back({a, b});
+        sort(an.rbegin(), an.rend());
+        // for (auto [a, b] : an)
+        //     cout << a << " " << b << endl;
+
+        for (int i = 0; i < min(k, (int)an.size()); i++)
         {
-            if (k != 0)
-            {
-                ans += it->second;
-                k--;
-            }
+            ans += an[i].second;
         }
-
-        if (ans > x)
-            cout << x << endl;
-        else
-            cout << ans << endl;
+        cout << min(x, ans) << endl;
     }
 
     return 0;

@@ -31,24 +31,20 @@ My goal is to become stronger in:
 
 <p align="center">
 
-<a href="https://codeforces.com/profile/mehadi977" target="_blank">
+<a href="https://codeforces.com/profile/mehadi977">
   <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
 </a>
 
-<a href="https://www.codechef.com/users/mehadi977" target="_blank">
+<a href="https://www.codechef.com/users/mehadi977">
   <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
 </a>
 
-<a href="https://leetcode.com/u/mehadi977/" target="_blank">
+<a href="https://leetcode.com/u/mehadi977/">
   <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
 </a>
 
-<a href="https://cses.fi/user/407331" target="_blank">
+<a href="https://cses.fi/user/407331">
   <img src="https://img.shields.io/badge/CSES-blue?style=for-the-badge" />
-</a>
-
-<a href="https://atcoder.jp/users/mehadi977" target="_blank">
-  <img src="https://img.shields.io/badge/AtCoder-black?style=for-the-badge" />
 </a>
 
 </p>

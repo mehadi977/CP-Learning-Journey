@@ -31,15 +31,25 @@ My goal is to become stronger in:
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
+<a href="https://codeforces.com/profile/mehadi977" target="_blank">
+  <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
+</a>
 
-<img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+<a href="https://www.codechef.com/users/mehadi977" target="_blank">
+  <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+</a>
 
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+<a href="https://leetcode.com/u/mehadi977/" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+</a>
 
-<img src="https://img.shields.io/badge/CSES-blue?style=for-the-badge" />
+<a href="https://cses.fi/user/407331" target="_blank">
+  <img src="https://img.shields.io/badge/CSES-blue?style=for-the-badge" />
+</a>
 
-<img src="https://img.shields.io/badge/AtCoder-black?style=for-the-badge" />
+<a href="https://atcoder.jp/users/mehadi977" target="_blank">
+  <img src="https://img.shields.io/badge/AtCoder-black?style=for-the-badge" />
+</a>
 
 </p>
 

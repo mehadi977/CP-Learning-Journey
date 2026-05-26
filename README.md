@@ -1,69 +1,57 @@
-# 🚀 CP Learning Journey
-
 <div align="center">
 
-### Competitive Programming Progress Tracker
+<br>
 
-Learning Data Structures & Algorithms step by step.
+# CP Learning Journey
 
-![Language](https://img.shields.io/badge/C%2B%2B-Primary-blue)
-![Status](https://img.shields.io/badge/Progress-Active-success)
-![Track](https://img.shields.io/badge/Focus-Competitive%20Programming-orange)
+**Data Structures & Algorithms · C++**
+
+[![Codeforces](https://img.shields.io/badge/Codeforces-mehadi977-1F8ACB?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/mehadi977)
+[![LeetCode](https://img.shields.io/badge/LeetCode-mehadi977-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/mehadi977)
+[![CodeChef](https://img.shields.io/badge/CodeChef-mehadi977-5B4638?style=flat-square&logo=codechef&logoColor=white)](https://codechef.com/users/mehadi977)
+
+<br>
 
 </div>
 
 ---
 
-## 👨‍💻 About
+## About
 
-This repository documents my **Competitive Programming journey**, where I solve problems, learn algorithms, and track my topic-wise progress.
-
-My goal is to become stronger in:
-
-- Problem Solving
-- Algorithmic Thinking
-- Contest Performance
-- Writing Efficient Code
+Documenting my competitive programming journey — solving problems, learning algorithms, and improving contest performance. Primary language is **C++**.
 
 ---
 
-## 🌐 Platforms
+## Roadmap
 
-<p align="center">
-
-<img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
-
-<img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
-
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
-
-<img src="https://img.shields.io/badge/CSES-blue?style=for-the-badge" />
-
-<img src="https://img.shields.io/badge/AtCoder-black?style=for-the-badge" />
-
-</p>
+| Phase | Topics | Status |
+|-------|--------|--------|
+| Foundation | STL · Two Pointers · Sliding Window · Bit Manipulation | ✅ Done |
+| Intermediate | Math & Number Theory · Binary Search · Prefix Sum · Monotonic Stack | 🔄 In Progress |
+| Advanced | Recursion · Trees · Graphs · DSU | ⏳ Upcoming |
+| Mastery | Dynamic Programming · String Hashing · Segment Tree | ⏳ Upcoming |
 
 ---
 
-## 🗺️ Learning Roadmap
+## Progress
+
+```
+Foundation    ████████████████████  100%
+Intermediate  ████████░░░░░░░░░░░░   40%
+Advanced      ░░░░░░░░░░░░░░░░░░░░    0%
+Mastery       ░░░░░░░░░░░░░░░░░░░░    0%
+```
+
+---
+
+## Resources
+
+- [CP-Algorithms](https://cp-algorithms.com) — algorithm reference
+- [CSES Problem Set](https://cses.fi/problemset) — structured practice
+- [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) — free book
+
+---
 
 <div align="center">
-
-| Status | Topics |
-|--------|--------|
-| ✅ **Completed** | `STL` • `Two Pointers` • `Sliding Window` • `Bit Manipulation` |
-| 🔄 **Currently Exploring** | `Basic Math & Number Theory` |
-| 🚀 **Next Milestones** | `Binary Search` • `Monotonic Functions` • `Prefix Sum` |
-| 🎯 **Advanced Track** | `Recursion` • `Tree & Graph` • `DSU` |
-| ⚡ **Mastery Phase** | `Dynamic Programming` • `String Hashing` • `Segment Tree` |
-
+<sub>Learning one problem at a time.</sub>
 </div>
-
----
-
-### 📈 Progress Path
-
-```text
-Foundation     ████████████████████ 100%
-Intermediate   ████████░░░░░░░░░░░ 40%
-Advanced       ░░░░░░░░░░░░░░░░░░░ 0%

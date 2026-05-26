@@ -1,41 +1,74 @@
-# 🚀 Competitive Programming Journey
+# 🚀 CP Learning Journey
 
-This repository documents my journey in Competitive Programming and Problem Solving.
+<div align="center">
+
+### Competitive Programming Progress Tracker
+
+Learning Data Structures & Algorithms step by step.
+
+![Language](https://img.shields.io/badge/C%2B%2B-Primary-blue)
+![Status](https://img.shields.io/badge/Progress-Active-success)
+![Track](https://img.shields.io/badge/Focus-Competitive%20Programming-orange)
+
+</div>
 
 ---
 
-## 👨‍💻 Platforms
+## 👨‍💻 About
+
+This repository documents my **Competitive Programming journey**, where I solve problems, learn algorithms, and track my topic-wise progress.
+
+My goal is to become stronger in:
+
+- Problem Solving
+- Algorithmic Thinking
+- Contest Performance
+- Writing Efficient Code
+
+---
+
+## 🌐 Platforms
+
 - Codeforces
 - CodeChef
-- LeetCode
 - CSES
-- Atcoder
+- AtCoder
+- LeetCode
 
 ---
 
-## 📚 Topics Covered
-- STL (C++)
-- Two Pointer Technique
+## 📚 Learning Roadmap
+
+### ✅ Completed
+
+- STL (Standard Template Library)
+- Two Pointers
 - Sliding Window
-- Sorting & Searching
-- Dynamic Programming (in progress)
+- Bit Manipulation & Bitmasks
 
 ---
 
-## 🎯 Goal
-To improve problem-solving skills, algorithmic thinking, and coding efficiency through consistent practice.
+### 🔄 Currently Learning
+
+- Basic Math & Number Theory
+
+---
+
+### ⏳ Upcoming
+
+- Binary Search Applications
+- Monotonic Function
+- Difference Array & Prefix Sum
+- Recursion & Backtracking
+- Tree & Graph
+- DSU
+- Dynamic Programming
+- String Hashing
+- Segment Tree
 
 ---
 
 ## 📊 Progress Tracker
 
-- [x] STL
-- [x] Two Pointer
-- [x] Sliding Window
-- [ ] Binary Search
-- [ ] Graph
-- [ ] Dynamic Programming
-
----
-
-🔥 “Consistency beats talent when talent doesn’t work consistently.”
+```text
+██████████░░░░░░░░░░ 40%

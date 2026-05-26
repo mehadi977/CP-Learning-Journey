@@ -15,26 +15,21 @@ int main()
     {
         cin >> v[i];
     }
-    ll cnt = 0;
-    ll sum = 0;
-    int l = 0, r = 0;
-    while (r < n)
+    vector<ll> pre(n);
+    pre[0] = v[0];
+    for (int i = 1; i < n; i++)
     {
-        if (r < n)
-            sum += v[r];
-        while (l <= r && sum > x)
-        {
-            sum -= v[l];
-            l++;
-        }
-        if (l < n && sum == x)
-        {
-            cnt++;
-            // sum -= v[l];
-            // l++;
-        }
-
-        r++;
+        pre[i] = pre[i - 1] + v[i];
+    }
+    ll cnt = 0;
+    map<ll, ll> mp;
+    mp[0] = 1;
+    for (int r = 0; r < n; r++)
+    {
+        ll y = pre[r] - x;
+        if (mp.find(y) != mp.end())
+            cnt += mp[y];
+        mp[pre[r]]++;
     }
 
     cout << cnt << endl;

@@ -29,11 +29,19 @@ My goal is to become stronger in:
 
 ## 🌐 Platforms
 
-- Codeforces
-- CodeChef
-- CSES
-- AtCoder
-- LeetCode
+<p align="center">
+
+<img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
+
+<img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+
+<img src="https://img.shields.io/badge/CSES-blue?style=for-the-badge" />
+
+<img src="https://img.shields.io/badge/AtCoder-black?style=for-the-badge" />
+
+</p>
 
 ---
 

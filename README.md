@@ -37,38 +37,25 @@ My goal is to become stronger in:
 
 ---
 
-## 📚 Learning Roadmap
+## 🗺️ Learning Roadmap
 
-### ✅ Completed
+<div align="center">
 
-- STL (Standard Template Library)
-- Two Pointers
-- Sliding Window
-- Bit Manipulation & Bitmasks
+| Status | Topics |
+|--------|--------|
+| ✅ **Completed** | `STL` • `Two Pointers` • `Sliding Window` • `Bit Manipulation` |
+| 🔄 **Currently Exploring** | `Basic Math & Number Theory` |
+| 🚀 **Next Milestones** | `Binary Search` • `Monotonic Functions` • `Prefix Sum` |
+| 🎯 **Advanced Track** | `Recursion` • `Tree & Graph` • `DSU` |
+| ⚡ **Mastery Phase** | `Dynamic Programming` • `String Hashing` • `Segment Tree` |
 
----
-
-### 🔄 Currently Learning
-
-- Basic Math & Number Theory
-
----
-
-### ⏳ Upcoming
-
-- Binary Search Applications
-- Monotonic Function
-- Difference Array & Prefix Sum
-- Recursion & Backtracking
-- Tree & Graph
-- DSU
-- Dynamic Programming
-- String Hashing
-- Segment Tree
+</div>
 
 ---
 
-## 📊 Progress Tracker
+### 📈 Progress Path
 
 ```text
-██████████░░░░░░░░░░ 40%
+Foundation     ████████████████████ 100%
+Intermediate   ████████░░░░░░░░░░░ 40%
+Advanced       ░░░░░░░░░░░░░░░░░░░ 0%

@@ -1,0 +1,59 @@
+// Problem Link:https://codeforces.com/problemset/problem/1994/B
+
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
+#define pb push_back
+#define fi first
+#define se second
+#define endl '\n'
+#define all(x) (x).begin(), (x).end()
+#define rall(x) (x).rbegin(), (x).rend()
+#define yes cout << "YES\n"
+#define no cout << "NO\n"
+
+void solve__()
+{
+    int n;
+    cin >> n;
+    string s, t;
+    cin >> s >> t;
+    if (s == t)
+    {
+        yes;
+        return;
+    }
+    bool ok = true;
+    bool S_firstAche = false;
+    for (int i = 0; i < n; i++)
+    {
+        if (s[i] == '1')
+        {
+            S_firstAche = true;
+        }
+
+        if (t[i] == '1' && S_firstAche == false)
+        {
+            ok = false;
+            break;
+        }
+    }
+    if (ok)
+        yes;
+    else
+        no;
+}
+
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int tc;
+    cin >> tc;
+    while (tc--)
+    {
+        solve__();
+    }
+
+    return 0;
+}

@@ -18,11 +18,27 @@ void solve__()
     cin >> a >> b >> x;
     if (a == b)
     {
-        cout << 0;
+        cout << 0 << endl;
         return;
     }
-    bool ok = false;
-    int cnt1 = 0, cnt2 = 0;
+    int ans = abs(a - b);
+    int cnt = 0;
+    while (a != b)
+    {
+        if (a > b)
+        {
+            a /= x;
+            cnt++;
+        }
+        else
+        {
+            b /= x;
+            cnt++;
+        }
+        int cur = abs(a - b) + cnt;
+        ans = min(cur, ans);
+    }
+    cout << ans << endl;
 }
 
 int main()

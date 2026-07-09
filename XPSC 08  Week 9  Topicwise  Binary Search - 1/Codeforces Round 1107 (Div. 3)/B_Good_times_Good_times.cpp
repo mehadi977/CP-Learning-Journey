@@ -1,4 +1,4 @@
-// Problem Link:
+// Problem Link:https://codeforces.com/contest/2241/problem/B
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -14,9 +14,12 @@ using ll = long long;
 
 void solve__()
 {
-    int x;
-    cin >> x;
-    cout << 2 << endl;
+    string s;
+    cin >> s;
+    string y(s.size() + 1, '0');
+    y[0] = '1';
+    y.back() = '1';
+    cout << y << endl;
 }
 
 int main()

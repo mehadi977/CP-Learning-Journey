@@ -1,4 +1,4 @@
-# 🚀 CP Learning Journey
+# 🚀 Competitive Programming Learning Journey
 
 <div align="center">
 
@@ -20,10 +20,10 @@ This repository documents my **Competitive Programming journey**, where I solve 
 
 My goal is to become stronger in:
 
-- Problem Solving
-- Algorithmic Thinking
-- Contest Performance
-- Writing Efficient Code
+- 🧠 Problem Solving
+- ⚙️ Algorithmic Thinking
+- 🏆 Contest Performance
+- 🚀 Writing Efficient Code
 
 ---
 
@@ -60,20 +60,58 @@ My goal is to become stronger in:
 <div align="center">
 
 | Status | Topics |
-|--------|--------|
-| ✅ **Completed** | `STL` • `Two Pointers` • `Sliding Window` • `Bit Manipulation` |
-| 🔄 **Currently Exploring** | `Basic Math & Number Theory` |
-| 🚀 **Next Milestones** | `Binary Search` • `Monotonic Functions` • `Prefix Sum` |
-| 🎯 **Advanced Track** | `Recursion` • `Tree & Graph` • `DSU` |
-| ⚡ **Mastery Phase** | `Dynamic Programming` • `String Hashing` • `Segment Tree` |
+|---------|--------|
+| ✅ **Completed** | `C++ STL` • `Two Pointers & Sliding Window` • `Bit Manipulation & Bitmasks` • `Basic Math & Number Theory` • `Binary Search Applications` |
+| 🔄 **Currently Exploring** | `Monotonic Function & Binary Search on Answer` • `More Math & Number Theory` |
+| 🚀 **Next Milestones** | `Difference Array & PBDS` • `Recursion & Backtracking` |
+| 🎯 **Advanced Track** | `Tree & Graph` • `DSU (Disjoint Set Union)` • `Segment Tree` • `Segment Tree Lazy` |
+| ⚡ **Mastery Phase** | `Dynamic Programming` • `String Hashing` • `nCr & nPr` • `Pigeonhole Principle` • `Stars & Bars` • `Inverse Mod` • `Advanced Problem Solving` |
 
 </div>
 
 ---
 
-### 📈 Progress Path
+## 📈 Progress Path
 
 ```text
 Foundation     ████████████████████ 100%
-Intermediate   ████████░░░░░░░░░░░ 40%
-Advanced       ░░░░░░░░░░░░░░░░░░░ 0%
+Intermediate   ████████████░░░░░░░░ 60%
+Advanced       ░░░░░░░░░░░░░░░░░░░░ 0%
+```
+
+---
+
+## 🎯 Current Focus
+
+```text
+✅ Newbie Problem Solvers Zone Completed
+
+🚀 Super Problem Solvers Zone
+
+✔ Monotonic Function & Binary Search on Answer
+🔄 More Math & Number Theory
+⏳ Difference Array & PBDS
+⏳ Recursion & Backtracking
+```
+
+---
+
+## 🎯 Goals
+
+- Solve **1500+** competitive programming problems.
+- Reach **Expert** on Codeforces.
+- Achieve **4★** on CodeChef.
+- Master Advanced Data Structures & Algorithms.
+- Become a consistent contest performer.
+
+---
+
+<div align="center">
+
+### ⭐ Thanks for visiting!
+
+If you like this repository, consider giving it a ⭐.
+
+**Happy Coding! 🚀**
+
+</div>

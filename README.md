@@ -57,18 +57,40 @@ My goal is to become stronger in:
 
 ## 🗺️ Learning Roadmap
 
-<div align="center">
+### ✅ Completed
 
-| Status | Topics |
-|---------|--------|
-| ✅ **Completed** | `C++ STL` • `Two Pointers & Sliding Window` • `Bit Manipulation & Bitmasks` • `Basic Math & Number Theory` • `Binary Search Applications` |
-| 🔄 **Currently Exploring** | `Monotonic Function & Binary Search on Answer` • `More Math & Number Theory` |
-| 🚀 **Next Milestones** | `Difference Array & PBDS` • `Recursion & Backtracking` |
-| 🎯 **Advanced Track** | `Tree & Graph` • `DSU (Disjoint Set Union)` • `Segment Tree` • `Segment Tree Lazy` |
-| ⚡ **Mastery Phase** | `Dynamic Programming` • `String Hashing` • `nCr & nPr` • `Pigeonhole Principle` • `Stars & Bars` • `Inverse Mod` • `Advanced Problem Solving` |
+- [x] C++ STL
+- [x] Two Pointers & Sliding Window
+- [x] Bit Manipulation & Bitmasks
+- [x] Basic Math & Number Theory
+- [x] Binary Search Applications
+- [x] Monotonic Function & Binary Search on Answer
 
-</div>
+### 🔄 Currently Exploring
 
+- [ ] More Math & Number Theory
+
+### 🚀 Next Milestones
+
+- [ ] Difference Array & PBDS
+- [ ] Recursion & Backtracking
+
+### 🎯 Advanced Track
+
+- Tree & Graph
+- DSU (Disjoint Set Union)
+- Segment Tree
+- Segment Tree Lazy
+
+### ⚡ Mastery Phase
+
+- Dynamic Programming
+- String Hashing
+- nCr & nPr
+- Pigeonhole Principle
+- Stars & Bars
+- Inverse Mod
+- Advanced Problem Solving
 ---
 
 ## 📈 Progress Path
@@ -77,21 +99,6 @@ My goal is to become stronger in:
 Foundation     ████████████████████ 100%
 Intermediate   ████████████░░░░░░░░ 60%
 Advanced       ░░░░░░░░░░░░░░░░░░░░ 0%
-```
-
----
-
-## 🎯 Current Focus
-
-```text
-✅ Newbie Problem Solvers Zone Completed
-
-🚀 Super Problem Solvers Zone
-
-✔ Monotonic Function & Binary Search on Answer
-🔄 More Math & Number Theory
-⏳ Difference Array & PBDS
-⏳ Recursion & Backtracking
 ```
 
 ---

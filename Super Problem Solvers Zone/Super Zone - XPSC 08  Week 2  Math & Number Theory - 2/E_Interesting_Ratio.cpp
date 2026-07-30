@@ -1,4 +1,4 @@
-// Problem Link:https://codeforces.com/problemset/problem/1474/B
+// Problem Link:https://codeforces.com/problemset/problem/2091/E
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -33,11 +33,16 @@ void sieve(long long n)
 //
 void solve__()
 {
-    ll d;
-    cin >> d;
-    ll x = *lower_bound(all(allPrime), d + 1);
-    ll y = *lower_bound(all(allPrime), x + d);
-    cout << x * y << endl;
+    int n;
+    cin >> n;
+    int ans = 0;
+    for (int x : allPrime)
+    {
+        if (x > n)
+            break;
+        ans += n / x;
+    }
+    cout << ans << endl;
 }
 
 int main()

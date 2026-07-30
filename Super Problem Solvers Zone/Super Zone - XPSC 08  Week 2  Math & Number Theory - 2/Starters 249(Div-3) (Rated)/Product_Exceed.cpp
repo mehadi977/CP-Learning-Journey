@@ -14,38 +14,24 @@ using ll = long long;
 
 void solve__()
 {
-    int n;
-    cin >> n;
-    vector<int> v(n);
-    for (int i = 0; i < n; i++)
+    int x, y, p;
+    cin >> x >> y >> p;
+    if (y * x >= p)
     {
-        cin >> v[i];
+        cout << 0 << endl;
+        return;
     }
+    int ans = 0;
 
-    if (n % 2 == 1)
+    while (x * y < p)
     {
-        no;
-        return;
+        if (x < y)
+            x++;
+        else
+            y++;
+        ans++;
     }
-    bool ok = true;
-    for (int i = 0; i < n; i += 2)
-    {
-        if (v[i] <= v[i + 1])
-        {
-            ok = false;
-            break;
-        }
-    }
-    if (ok == false)
-    {
-        no;
-        return;
-    }
-    sort(all(v));
-    if (v[n / 2] - v[n / 2 - 1] >= 2)
-        yes;
-    else
-        no;
+    cout << ans << endl;
 }
 
 int main()

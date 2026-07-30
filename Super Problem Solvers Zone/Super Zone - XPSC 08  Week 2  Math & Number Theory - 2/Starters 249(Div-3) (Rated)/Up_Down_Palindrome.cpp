@@ -1,4 +1,4 @@
-// Problem Link:https://codeforces.com/problemset/problem/1881/D
+// Problem Link:
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -21,34 +21,31 @@ void solve__()
     {
         cin >> v[i];
     }
-    map<int, int> mp;
-    for (int i = 0; i < n; i++)
-    {
-
-        for (int j = 2; j * j <= v[i]; j++)
-        {
-            if (v[i] % j == 0)
-                while (v[i] % j == 0)
-                {
-                    mp[j]++;
-                    v[i] /= j;
-                }
-        }
-        if (v[i] > 1)
-            mp[v[i]]++;
-    }
-    // for (auto [a, b] : mp)
-    //     cout << a << " -> " << b << endl;
     bool ok = true;
-    for (auto [a, b] : mp)
+    vector<int> x = v;
+    reverse(all(x));
+    if (x == v)
     {
-        if (b % n != 0)
+        yes;
+        return;
+    }
+    int mx = 1e9;
+    int mn = -1e9;
+    for (int i = 0, j = n - 1; i < j; i++, j--)
+    {
+        if (v[i] == v[j])
+            continue;
+        if (abs(v[i] - v[j]) != 2)
         {
             ok = false;
             break;
         }
+        int choto = min(v[i], v[j]);
+
+        mn = max(mn, choto);
+        mx = min(mx, choto+ 1);
     }
-    if (ok)
+    if (ok && mn <= mx)
         yes;
     else
         no;

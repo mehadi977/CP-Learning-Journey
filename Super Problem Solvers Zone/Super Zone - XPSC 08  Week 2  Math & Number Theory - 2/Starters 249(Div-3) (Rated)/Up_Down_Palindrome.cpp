@@ -43,7 +43,7 @@ void solve__()
         int choto = min(v[i], v[j]);
 
         mn = max(mn, choto);
-        mx = min(mx, choto+ 1);
+        mx = min(mx, choto + 1);
     }
     if (ok && mn <= mx)
         yes;

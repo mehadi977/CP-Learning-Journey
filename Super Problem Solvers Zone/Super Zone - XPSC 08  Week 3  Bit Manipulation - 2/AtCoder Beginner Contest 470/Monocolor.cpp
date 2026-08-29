@@ -1,0 +1,53 @@
+// Problem Link:
+
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
+#define pb push_back
+#define fi first
+#define se second
+#define endl '\n'
+#define all(x) (x).begin(), (x).end()
+#define rall(x) (x).rbegin(), (x).rend()
+#define yes cout << "YES\n"
+#define no cout << "NO\n"
+
+void solve__()
+{
+    int n;
+    cin >> n;
+    vector<int> v(n);
+    map<int, int> mp;
+    for (int i = 0; i < n; i++)
+    {
+        cin >> v[i];
+        mp[v[i]]++;
+    }
+    int mx = 0;
+    int mxcnt = 0;
+    for (auto [v, cnt] : mp)
+    {
+        if (cnt > mxcnt)
+        {
+            mx = v;
+            mxcnt = cnt;
+        }
+    }
+    // cout << mx;
+    int ans = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (v[i] != mx)
+            ans++;
+    }
+    cout << ans;
+}
+
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    solve__();
+
+    return 0;
+}
